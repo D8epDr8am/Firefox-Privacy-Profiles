@@ -1,13 +1,8 @@
 
 
 
-# Firefox-Privacy-Profiles
+![logo](./logo.svg)
 
-firefox
-privacy
-arkenfox
-betterfox
-security
 https://github.com/arkenfox/user.js/
 
 
