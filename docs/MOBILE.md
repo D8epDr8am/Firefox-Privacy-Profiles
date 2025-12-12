@@ -83,3 +83,87 @@ For maximum separation, use Android's work profile feature.
 ### Setup Steps
 
 1. **Install Island or Shelter**
+
+2. 2. **Create work profile:**
+   - Open Island/Shelter
+   - Follow setup wizard
+   - Grant required permissions
+
+3. **Clone Firefox:**
+   - In Island/Shelter, find Firefox
+   - Tap "Clone to Island"
+   - Wait for installation
+
+4. **Configure each instance:**
+   - Personal profile Firefox: Banking only
+   - Work profile Firefox: Personal accounts
+
+5. **Switch between profiles:**
+   - Pull down notification shade
+   - Tap profile switcher icon
+   - Or use Island/Shelter app
+
+## Mull Browser Setup
+
+Mull is closest to desktop Arkenfox configuration on Android.
+
+### Installation
+```bash
+# Via F-Droid
+1. Open F-Droid
+2. Search "Mull"
+3. Install
+```
+
+### Default Features
+
+Mull comes pre-configured with:
+- ResistFingerprinting enabled
+- uBlock Origin pre-installed
+- HTTPS-only mode
+- No telemetry
+- WebRTC disabled
+
+### Recommended Extensions
+
+Install from Mozilla Add-ons:
+1. **uBlock Origin** (pre-installed)
+2. **KeePassXC-Browser** - Password manager
+3. **Dark Reader** - Dark mode for all sites
+4. **ClearURLs** - Remove tracking parameters
+
+## Sync Considerations
+
+### Should You Sync?
+
+**Banking Profile:** ❌ Don't sync
+- Keep banking data local only
+- No history/password sync
+- Maximum security
+
+**Personal Profile:** ⚠️ Optional
+- Sync bookmarks/history if convenient
+- Don't sync passwords (use KeePass instead)
+- Consider privacy implications
+
+**Mull Browser:** ❌ Don't sync
+- Purpose is maximum privacy
+- Syncing reduces anonymity
+- Keep isolated from other profiles
+
+## Browser Comparison
+
+| Feature | Firefox | Mull | Brave | Focus |
+|---------|---------|------|-------|-------|
+| **Privacy** | Medium | Maximum | High | Medium |
+| **Compatibility** | Excellent | Good | Excellent | Good |
+| **Speed** | Fast | Fast | Fastest | Fast |
+| **Extensions** | Yes | Yes | Limited | No |
+| **Best For** | Banking | Personal | Daily | Temporary |
+| **Fingerprinting** | Medium | Maximum | High | Medium |
+
+## Mobile-Specific Tips
+
+### Battery Optimization
+
+Disable battery optimization for browsers you use frequently:
