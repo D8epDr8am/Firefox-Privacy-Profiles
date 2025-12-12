@@ -14,6 +14,37 @@
   <circle cx="28" cy="30" r="1.6" fill="#0f1724"/>
   <circle cx="36" cy="30" r="1.6" fill="#0f1724"/>
 </svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="140" viewBox="0 0 600 140" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">Firefox Privacy Profiles — logo</title>
+  <desc>Shield with wolf head + project name</desc>
+
+  <!-- Background transparent -->
+  <g transform="translate(18,12)">
+    <!-- Shield -->
+    <path d="M46 4 L94 24 L94 76 C94 102 70 124 46 132 C22 124 -2 102 -2 76 L-2 24 Z"
+          fill="#0f1724" stroke="#ffffff" stroke-width="2" opacity="0.98"/>
+
+    <!-- Wolf (stylized, geometric) -->
+    <g transform="translate(12,12) scale(0.9)">
+      <polygon points="38,28 50,14 62,28 74,22 62,44 50,36 38,44 26,22"
+               fill="#9ae6b4"/>
+      <polygon points="50,36 62,44 74,22" fill="#2d3748" opacity="0.08"/>
+      <circle cx="46" cy="30" r="2" fill="#0f1724"/>
+      <circle cx="58" cy="30" r="2" fill="#0f1724"/>
+    </g>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(140,48)">
+    <text x="0" y="0" font-family="Inter, Roboto, Arial, sans-serif" font-size="30" fill="#0f1724" font-weight="700">
+      Firefox Privacy
+    </text>
+    <text x="0" y="36" font-family="Inter, Roboto, Arial, sans-serif" font-size="16" fill="#374151" font-weight="500">
+      Profiles · isolated · secure
+    </text>
+  </g>
+</svg>
 
 
 # Firefox-Privacy-Profiles
