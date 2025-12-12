@@ -1,7 +1,7 @@
 
 
 
-#![logo](./logo2.svg)
+
 <p align="center">
   <img src="./logo.svg" width="260" />
 </p>
@@ -12,6 +12,7 @@ https://github.com/arkenfox/user.js/
 
 https://github.com/yokoffing/BetterFox
 # Firefox Privacy Profiles
+![logo](./logo2.svg)
 
 Автоматизированный установщик двух полностью изолированных приватных профилей Firefox.  
 Проект предназначен для пользователей, которые хотят разделить повседневную деятельность и онлайн-банкинг, усилив безопасность и приватность браузинга.
