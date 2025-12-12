@@ -1,0 +1,63 @@
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Градиент ночного неба -->
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b0f17"></stop>
+      <stop offset="100%" stop-color="#1a1f2b"></stop>
+    </linearGradient>
+
+    <!-- Лёгкое свечение -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="coloredBlur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <!-- Рунификаторные символы -->
+    <style>
+      .rune {
+        font-family: "Ubuntu Mono", monospace;
+        font-size: 38px;
+        fill: #ced2ff;
+        opacity: 0.35;
+      }
+      .title {
+        font-family: "JetBrains Mono", monospace;
+        fill: #e9ecff;
+        font-size: 48px;
+        letter-spacing: 4px;
+        filter: url(#glow);
+      }
+      .sub {
+        font-family: "JetBrains Mono", monospace;
+        fill: #a9aecb;
+        font-size: 22px;
+        opacity: 0.8;
+      }
+    </style>
+  </defs>
+
+  <!-- Фон -->
+  <rect width="900" height="240" fill="url(#bg)" rx="20"></rect>
+
+  <!-- Рунные «тени» -->
+  <text x="50" y="70" class="rune">ᚠ ᛉ ᚨ ᛃ ᚾ ᛟ ᚦ ᛞ ᛚ ᚱ</text>
+  <text x="420" y="190" class="rune">ᛃ ᚦ ᚾ ᛟ ᚱ ᚠ ᛉ ᛞ ᛚ</text>
+
+  <!-- Титул -->
+  <text x="450" y="110" text-anchor="middle" class="title">
+    NEO FIREFOX LAB
+  </text>
+
+  <!-- Подзаголовок -->
+  <text x="450" y="160" text-anchor="middle" class="sub">
+    profiles • privacy • ritual automation
+  </text>
+
+  <!-- Декоративная линия -->
+  <line x1="200" y1="175" x2="700" y2="175" stroke="#39415f" stroke-width="2" opacity="0.7"></line>
+
+</svg>
