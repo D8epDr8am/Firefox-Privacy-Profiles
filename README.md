@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="./logo3.svg" width="260" />
+  <img src="./logo3.svg" width="660" />
 </p>
 
 https://github.com/arkenfox/user.js/
