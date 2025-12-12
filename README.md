@@ -1,7 +1,7 @@
 
 
 
-![logo](./logo.svg)
+![logo](./logo2.svg)
 
 https://github.com/arkenfox/user.js/
 
