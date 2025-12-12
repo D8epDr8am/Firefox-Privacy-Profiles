@@ -1,7 +1,10 @@
 
 
 
-![logo](./logo2.svg)
+#![logo](./logo2.svg)
+<p align="center">
+  <img src="./logo.svg" width="260" />
+</p>
 
 https://github.com/arkenfox/user.js/
 
